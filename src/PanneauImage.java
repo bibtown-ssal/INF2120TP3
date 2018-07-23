@@ -25,12 +25,13 @@ public class PanneauImage extends JPanel {
         this.setSize( TAILLE_X, TAILLE_Y );
 
         ifs = new IFS();
-
+        /*//Permet l'affichage d'un dessin "arbre" par defaut si non-commente.
         ifs.add( new FonctionLineaire(  0.1950, -0.4880,  0.3440,  0.4430, 0.4431, 0.2453 ) );
         ifs.add( new FonctionLineaire(  0.4620,  0.4140, -0.2520,  0.3610, 0.2511, 0.5692 ) );
         ifs.add( new FonctionLineaire( -0.0580, -0.0700,  0.4530, -0.1110, 0.5976, 0.0969 ) );
         ifs.add( new FonctionLineaire( -0.0350,  0.0700, -0.4690, -0.0220, 0.4884, 0.5069 ) );
         ifs.add( new FonctionLineaire( -0.6370,  0.0000,  0.0000,  0.5010, 0.8562, 0.2513 ) );
+        */
     }
 
     @Override
